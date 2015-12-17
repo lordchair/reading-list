@@ -1,0 +1,38 @@
+{
+  "name": "reading-list",
+  "version": "1.0.0",
+  "description": "Display list of books",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --progress --colors",
+    "dev": "webpack-dev-server --progress --colors --content-base dist/",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordchair/reading-list.git"
+  },
+  "author": "Yale Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lordchair/reading-list/issues"
+  },
+  "homepage": "https://github.com/lordchair/reading-list#readme",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "css-loader": "^0.23.0",
+    "history": "^1.13.1",
+    "jsx-loader": "^0.13.2",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "react": "^0.14.3",
+    "static-site-generator-webpack-plugin": "^2.0.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  }
+}
